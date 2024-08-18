@@ -116,8 +116,8 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "React.js Web Developer",
+      company_name: "Freelance",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
@@ -129,7 +129,7 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
+      title: "Content Creation",
       company_name: "Tesla",
       icon: tesla,
       iconBg: "#E6DEDD",
@@ -140,31 +140,30 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
+    },  
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Broadcasting Engineer",
+      company_name: "Direct Sports Network",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Enhanced company branding through meticulous audio-video editing, graphic design. ",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality content.",
+        "Oversaw SEO & Marketing initiatives for new partner content from the NFL, NBA.",
+        "Developed front-end prototypes for larger screen applications.",
+      ],
+    },
+    {
+      title: "Specialist",
+      company_name: "Apple",
+      icon: shopify,
+      iconBg: "#383E56",
+      date: "Jan 2022 - Jan 2023",
+      points: [
+        "Personally interfaced with dozens of customers daily, providing top-notch service and solutions.",
+        "Strictly adhered to company guidelines and policies, leveraging effective sales methods to consistently deliver results.",
+        "Mastered and implemented the Apple steps of service to ensure customer satisfaction and brand consistency.",
       ],
     },
   ];
