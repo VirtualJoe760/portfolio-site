@@ -117,7 +117,7 @@ import {
   const experiences = [
     {
       title: "React.js Web Developer",
-      company_name: "Freelance",
+      company_name: "Think Big Joe",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
@@ -129,16 +129,15 @@ import {
       ],
     },
     {
-      title: "Content Creation",
-      company_name: "Tesla",
+      title: "System Administrator",
+      company_name: "On-site Tech Support",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Acted as first line of support for technical questions across multiple companies remotely domestic and abroad.",
+        "Utilized tools such as SSH, Kaseya, & Connectwise RMM for troubleshooting and deployment of software updates.",
+        "Strong understanding of tools such as linux and bash to manage filesystems and server environments",
       ],
     },  
     {
