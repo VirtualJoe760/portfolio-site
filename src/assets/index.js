@@ -29,6 +29,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import apple from "./company/apple-logo.png"
+import dsn from "./company/dsn.png";
+import osts from "./company/osts-logo.png";
 
 // Projects Photos
 import carrent from "./carrent.png";
@@ -40,6 +43,9 @@ import cgHp from "./CG-Homepage.png"
 
 export {
   logo,
+  apple,
+  dsn,
+  osts,
   backend,
   creator,
   mobile,

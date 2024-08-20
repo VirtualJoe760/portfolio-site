@@ -1,4 +1,5 @@
 import {
+    logo,
     mobile,
     backend,
     creator,
@@ -15,16 +16,12 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
+    apple,
+    dsn,
+    osts,
     mrrHp,
     ppHp,
     cgHp,
-    jobit,
-    tripguide,
     threejs,
   } from "../assets";
   
@@ -45,7 +42,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full-Stack Web-Dev",
       icon: web,
     },
     {
@@ -53,11 +50,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Full-Stack",
+      title: "Video & SFX Editor",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Graphic Designer",
       icon: creator,
     },
   ];
@@ -119,24 +116,36 @@ import {
   
   const experiences = [
     {
-      title: "React.js Web Developer",
-      company_name: "Think Big Joe",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Specialist",
+      company_name: "Apple",
+      icon: apple,
+      iconBg: "#fff",
+      date: "October 2009 - Jan 2013",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Personally interfaced with dozens of customers daily, providing top-notch service and solutions.",
+        "Strictly adhered to company guidelines and policies, leveraging effective sales methods to consistently deliver results.",
+        "Mastered and implemented the Apple steps of service to ensure customer satisfaction and brand consistency.",
+      ],
+    },
+    {
+      title: "Broadcasting Engineer",
+      company_name: "Direct Sports Network",
+      icon: dsn,
+      iconBg: "#1e1e1e",
+      date: "Jan 2013 - June 2016",
+      points: [
+        "Enhanced company branding through meticulous audio-video editing, graphic design using adobe creative suite tools such as photoshop, after effects, premiere pro. ",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality content.",
+        "Oversaw SEO & Marketing initiatives for new partner content from the NFL, NBA.",
+        "Developed front-end prototypes for larger screen applications.",
       ],
     },
     {
       title: "System Administrator",
       company_name: "On-site Tech Support",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      icon: osts,
+      iconBg: "#fff",
+      date: "Jan 2017 - Feb 2019 ",
       points: [
         "Acted as first line of support for technical questions across multiple companies remotely domestic and abroad.",
         "Utilized tools such as SSH, Kaseya, & Connectwise RMM for troubleshooting and deployment of software updates.",
@@ -144,28 +153,16 @@ import {
       ],
     },  
     {
-      title: "Broadcasting Engineer",
-      company_name: "Direct Sports Network",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "React.js Web Developer",
+      company_name: "Think Big Joe",
+      icon: logo,
+      iconBg: "#000",
+      date: "March 2020 - Present",
       points: [
-        "Enhanced company branding through meticulous audio-video editing, graphic design. ",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality content.",
-        "Oversaw SEO & Marketing initiatives for new partner content from the NFL, NBA.",
-        "Developed front-end prototypes for larger screen applications.",
-      ],
-    },
-    {
-      title: "Specialist",
-      company_name: "Apple",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Personally interfaced with dozens of customers daily, providing top-notch service and solutions.",
-        "Strictly adhered to company guidelines and policies, leveraging effective sales methods to consistently deliver results.",
-        "Mastered and implemented the Apple steps of service to ensure customer satisfaction and brand consistency.",
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
   ];
