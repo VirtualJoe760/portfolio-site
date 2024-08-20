@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet';
 
-
 const HeadComponent = () => (
     <Helmet>
         <meta property="og:title" content="Dream Big Joe | Web Developer" />

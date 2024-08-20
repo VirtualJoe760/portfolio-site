@@ -1,6 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
 import {
-  HeadComponent,
   About,
   Contact,
   Experience,
@@ -15,7 +14,6 @@ import {
 const App = () => {
   return (
     <BrowserRouter>
-    <HeadComponent />
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
