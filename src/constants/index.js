@@ -20,6 +20,9 @@ import {
     tesla,
     shopify,
     carrent,
+    mrrHp,
+    ppHp,
+    cgHp,
     jobit,
     tripguide,
     threejs,
@@ -196,67 +199,70 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "My Recovery Roads",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "My Recovery Roads is a Sober living & Detox locator to help individuals get into Substance abuse and mental health treatment. Currently this website's CRM functionality is offline. It featured Mailchimp CRM & Email integration to run insurance for future patients.",
       tags: [
         {
-          name: "react",
+          name: "Eleventy",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Netlify",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: mrrHp,
+      source_code_link: "https://github.com/VirtualJoe760/myrecoveryroadsv2",
+      website_link: "https://myrecoveryroads.com/"
     },
     {
-      name: "Job IT",
+      name: "Cyber Gorilla's",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A tech blog that also offers consulting and repair services. It is a Jamstack application that integrates with tinycal for booking apointments. It features Netlify CMS for easy blog post/content creation and a fun retro theme with gorillas to bring comedic relief & nostalgia to design.",
       tags: [
         {
-          name: "react",
+          name: "Eleventy",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Netlify",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: cgHp,
+      source_code_link: "https://github.com/VirtualJoe760/Cyber-Gorillas",
+      website_link: "https://cyber-gorillas.com/"
     },
     {
-      name: "Trip Guide",
+      name: "Property Pulse",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive property management platform that allows users to rental properties, equipt with a fullstack Nextjs/mongodb solution for property listing booking. This project is still in development as of 8/1/2024. The github code is available for those looking to follow my progress.",
       tags: [
         {
-          name: "nextjs",
+          name: "Nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Tailwind CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: ppHp,
+      source_code_link: "https://github.com/VirtualJoe760/sd-homes",
+      website_link: "https://google.com/404"
     },
   ];
   
