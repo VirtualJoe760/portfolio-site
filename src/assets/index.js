@@ -39,8 +39,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import mrrHp from "./mrr-homepage.png";
-import ppHp from "./pp-homepage.png";
 import cgHp from "./CG-Homepage.png";
+import chatrealty from "./chatrealty.png";
+import jpsrealtor from "./jpsrealtor.png";
+import kellysrufflife from "./kellysrufflife.png";
+import stephenlawyer from "./stephenlawyer.png";
 
 export {
   logo,
@@ -75,7 +78,10 @@ export {
   tesla,
   mrrHp,
   cgHp,
-  ppHp,
+  chatrealty,
+  jpsrealtor,
+  kellysrufflife,
+  stephenlawyer,
   carrent,
   jobit,
   tripguide,

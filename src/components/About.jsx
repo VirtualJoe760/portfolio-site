@@ -47,12 +47,14 @@ const About = () => {
       variants={fadeIn("","", 0.1, 1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a web developer with experience using technolgies like
-        typescript & javascript. I have expertise in frameworks like
-        react, nodejs, threejs, nextjs and gatsby. I pride myself on being a
-        quick learner and collaborating closely with clients to create efficient, scalable,
-        and user-friendly web applications that grow your business to the next level.
-        Let's work together and Dream Big!
+        I'm a full-stack developer and AI engineer. I started out crafting
+        front-end interfaces with JavaScript & TypeScript, grew into building
+        complete full-stack applications with React, Node.js, Next.js and
+        Three.js, and today I engineer AI-powered products that put large
+        language models to work for real businesses. I pride myself on being a
+        quick learner and partnering closely with clients to ship efficient,
+        scalable, and intelligent software that grows your business to the next
+        level. Let's build something and Dream Big!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

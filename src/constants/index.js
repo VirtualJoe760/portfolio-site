@@ -20,9 +20,13 @@ import {
     dsn,
     osts,
     mrrHp,
-    ppHp,
     cgHp,
+    chatrealty,
+    jpsrealtor,
+    kellysrufflife,
+    stephenlawyer,
     threejs,
+    thumbnail,
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +46,19 @@ import {
   
   const services = [
     {
-      title: "Full-Stack Web-Dev",
+      title: "Front-End Developer",
       icon: web,
     },
     {
-      title: "Generative Ai Artist",
-      icon: mobile,
-    },
-    {
-      title: "Video & SFX Editor",
+      title: "Full-Stack Engineer",
       icon: backend,
     },
     {
-      title: "Graphic Designer",
+      title: "AI Engineer",
+      icon: mobile,
+    },
+    {
+      title: "Generative AI Artist",
       icon: creator,
     },
   ];
@@ -153,16 +157,29 @@ import {
       ],
     },  
     {
-      title: "React.js Web Developer",
+      title: "Full-Stack Developer",
       company_name: "Think Big Joe",
       icon: logo,
       iconBg: "#000",
-      date: "March 2020 - Present",
+      date: "March 2020 - 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Grew from front-end work into building complete full-stack applications with React, Node.js, Next.js, and MongoDB.",
+        "Designed and shipped responsive, cross-browser web apps and immersive 3D experiences with Three.js.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "AI Engineer",
+      company_name: "Think Big Joe",
+      icon: thumbnail,
+      iconBg: "#000",
+      date: "2023 - Present",
+      points: [
+        "Engineering AI-powered products that put large language models to work for real businesses — including ChatRealty, a conversational real estate platform.",
+        "Building retrieval-augmented and agentic workflows that connect LLMs to live data, tools, and APIs.",
+        "Integrating AI across the full stack, from prompt design and model orchestration to production deployment.",
+        "Translating client goals into intelligent, scalable software that ships.",
       ],
     },
   ];
@@ -195,6 +212,94 @@ import {
   ];
   
   const projects = [
+    {
+      name: "ChatRealty",
+      description:
+        "An AI-powered real estate platform (jpsrealtor) built around conversational property search over live MLS data. Large language models generate listing content, market analysis, and neighborhood insights — turning a simple chat box into a full real estate assistant.",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "OpenAI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: chatrealty,
+      source_code_link: "https://github.com/VirtualJoe760/jpsrealtor",
+      website_link: "https://chatrealty.io/",
+    },
+    {
+      name: "JPS Realtor",
+      description:
+        "My personal real estate brand and lead-generation landing page for eXp Realty, built on the ChatRealty platform. Visitors can create a free account, run a map-based property search, and reach me directly — a clean, conversion-focused front door to the same live MLS data.",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MLS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jpsrealtor,
+      source_code_link: "https://github.com/VirtualJoe760/jpsrealtor",
+      website_link: "https://jpsrealtor.com/",
+    },
+    {
+      name: "Kelly's Ruff Life",
+      description:
+        "A vibrant brand site for a pet care business, built to showcase services and turn visitors into bookings. Features a clean, responsive Next.js front-end with smooth Framer Motion animations and a mobile-first design.",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Framer Motion",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: kellysrufflife,
+      source_code_link: "https://github.com/VirtualJoe760",
+      website_link: "https://kellysrufflife.com/",
+    },
+    {
+      name: "Stephen Lawyer Clothing",
+      description:
+        "An e-commerce storefront for an independent clothing brand. Built with a fast Next.js front-end, Tailwind styling, and Stripe checkout for a smooth, secure shopping experience from browse to purchase.",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Printful",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: stephenlawyer,
+      source_code_link: "https://github.com/VirtualJoe760",
+      website_link: "https://stephenlawyer.clothing/",
+    },
     {
       name: "My Recovery Roads",
       description:
@@ -238,28 +343,6 @@ import {
       image: cgHp,
       source_code_link: "https://github.com/VirtualJoe760/Cyber-Gorillas",
       website_link: "https://cyber-gorillas.com/"
-    },
-    {
-      name: "Property Pulse",
-      description:
-        "A comprehensive property management platform that allows users to rental properties, equipt with a fullstack Nextjs/mongodb solution for property listing booking. This project is still in development as of 8/1/2024. The github code is available for those looking to follow my progress.",
-      tags: [
-        {
-          name: "Nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "MongoDB",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: ppHp,
-      source_code_link: "https://github.com/VirtualJoe760/sd-homes",
-      website_link: "https://google.com/404"
     },
   ];
   

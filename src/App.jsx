@@ -9,6 +9,7 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  TawkToWidget,
 } from "./components";
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
+      <TawkToWidget />
     </BrowserRouter>
   );
 };
