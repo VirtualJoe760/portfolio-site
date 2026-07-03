@@ -40,6 +40,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import mrrHp from "./mrr-homepage.png";
 import cgHp from "./CG-Homepage.png";
+import thinkbigjoe from "./thinkbigjoe.png";
+import nanocrew from "./nanocrew.png";
 import chatrealty from "./chatrealty.png";
 import jpsrealtor from "./jpsrealtor.png";
 import kellysrufflife from "./kellysrufflife.png";
@@ -78,6 +80,8 @@ export {
   tesla,
   mrrHp,
   cgHp,
+  thinkbigjoe,
+  nanocrew,
   chatrealty,
   jpsrealtor,
   kellysrufflife,

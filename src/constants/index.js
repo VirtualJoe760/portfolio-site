@@ -21,6 +21,8 @@ import {
     osts,
     mrrHp,
     cgHp,
+    thinkbigjoe,
+    nanocrew,
     chatrealty,
     jpsrealtor,
     kellysrufflife,
@@ -213,6 +215,28 @@ import {
   
   const projects = [
     {
+      name: "ThinkBigJoe",
+      description:
+        "My AI consulting agency — building agentic software and Model Context Protocol (MCP) servers that let businesses deploy AI agents into real workflows. From AI strategy to production agent development, it's the brand behind projects like ChatRealty.",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Agentic AI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MCP",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: thinkbigjoe,
+      source_code_link: "https://github.com/VirtualJoe760",
+      website_link: "https://thinkbigjoe.com/",
+    },
+    {
       name: "ChatRealty",
       description:
         "An AI-powered real estate platform (jpsrealtor) built around conversational property search over live MLS data. Large language models generate listing content, market analysis, and neighborhood insights — turning a simple chat box into a full real estate assistant.",
@@ -233,6 +257,28 @@ import {
       image: chatrealty,
       source_code_link: "https://github.com/VirtualJoe760/jpsrealtor",
       website_link: "https://chatrealty.io/",
+    },
+    {
+      name: "Nano Crew",
+      description:
+        "An AI-native creator commerce platform that turns a conversation into a real clothing brand — generating the shop, a custom storefront website, and the content to sell it, all run from your phone.",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Generative AI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "E-commerce",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nanocrew,
+      source_code_link: "https://github.com/VirtualJoe760",
+      website_link: "https://nanocrew.app/",
     },
     {
       name: "JPS Realtor",
